@@ -1,4 +1,5 @@
 #capitalize first character of each sentences
+#assuming the paragraph write in correct form
 def capitalize(sentences):
     result = ""
     #split the sentences into list of sentence
