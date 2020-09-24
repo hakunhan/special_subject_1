@@ -20,11 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9d6686e3-51f5-44db-9b34-a94a8588662e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/homework_02/problem8.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/special_subject_1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/special_subject_1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework_02/problem9.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework_02/problem7.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework_02/problem7.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,29 +61,7 @@
       <recent name="C:\Users\Administrator\special_subject_1\practies\week02" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.problem8">
-    <configuration name="problem4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="special_subject_1" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/homework_02" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/homework_02/problem4.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.problem9">
     <configuration name="problem5" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="special_subject_1" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -175,13 +150,35 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="problem9" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="special_subject_1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/homework_02" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/homework_02/problem9.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.problem9" />
         <item itemvalue="Python.problem8" />
         <item itemvalue="Python.problem7" />
         <item itemvalue="Python.problem6" />
         <item itemvalue="Python.problem5" />
-        <item itemvalue="Python.problem4" />
       </list>
     </recent_temporary>
   </component>
@@ -197,7 +194,7 @@
       <workItem from="1600825785714" duration="992000" />
       <workItem from="1600826797060" duration="955000" />
       <workItem from="1600857704167" duration="9555000" />
-      <workItem from="1600927564440" duration="748000" />
+      <workItem from="1600927564440" duration="1667000" />
     </task>
     <servers />
   </component>
@@ -221,26 +218,26 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1600826781557" />
-    <state width="1342" height="195" key="GridCell.Tab.0.bottom" timestamp="1600928305761">
+    <state width="1342" height="195" key="GridCell.Tab.0.bottom" timestamp="1600929050807">
       <screen x="0" y="40" width="1536" height="824" />
     </state>
     <state width="1286" height="156" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1600869849597" />
-    <state width="1342" height="195" key="GridCell.Tab.0.bottom/0.40.1536.824@0.40.1536.824" timestamp="1600928305761" />
-    <state width="1342" height="195" key="GridCell.Tab.0.center" timestamp="1600928305761">
+    <state width="1342" height="195" key="GridCell.Tab.0.bottom/0.40.1536.824@0.40.1536.824" timestamp="1600929050807" />
+    <state width="1342" height="195" key="GridCell.Tab.0.center" timestamp="1600929050807">
       <screen x="0" y="40" width="1536" height="824" />
     </state>
     <state width="1286" height="156" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1600869849597" />
-    <state width="1342" height="195" key="GridCell.Tab.0.center/0.40.1536.824@0.40.1536.824" timestamp="1600928305761" />
-    <state width="1342" height="195" key="GridCell.Tab.0.left" timestamp="1600928305761">
+    <state width="1342" height="195" key="GridCell.Tab.0.center/0.40.1536.824@0.40.1536.824" timestamp="1600929050807" />
+    <state width="1342" height="195" key="GridCell.Tab.0.left" timestamp="1600929050807">
       <screen x="0" y="40" width="1536" height="824" />
     </state>
     <state width="1286" height="156" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1600869849597" />
-    <state width="1342" height="195" key="GridCell.Tab.0.left/0.40.1536.824@0.40.1536.824" timestamp="1600928305761" />
-    <state width="1342" height="195" key="GridCell.Tab.0.right" timestamp="1600928305761">
+    <state width="1342" height="195" key="GridCell.Tab.0.left/0.40.1536.824@0.40.1536.824" timestamp="1600929050807" />
+    <state width="1342" height="195" key="GridCell.Tab.0.right" timestamp="1600929050807">
       <screen x="0" y="40" width="1536" height="824" />
     </state>
     <state width="1286" height="156" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1600869849597" />
-    <state width="1342" height="195" key="GridCell.Tab.0.right/0.40.1536.824@0.40.1536.824" timestamp="1600928305761" />
+    <state width="1342" height="195" key="GridCell.Tab.0.right/0.40.1536.824@0.40.1536.824" timestamp="1600929050807" />
     <state width="1286" height="195" key="GridCell.Tab.1.bottom" timestamp="1600868955463">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -280,6 +277,7 @@
     <SUITE FILE_PATH="coverage/special_subject_1$problem_9.coverage" NAME="problem_9 Coverage Results" MODIFIED="1600602306925" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework_01" />
     <SUITE FILE_PATH="coverage/special_subject_1$problem8.coverage" NAME="problem8 Coverage Results" MODIFIED="1600928305745" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework_02" />
     <SUITE FILE_PATH="coverage/special_subject_1$problem2.coverage" NAME="problem2 Coverage Results" MODIFIED="1600827754258" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework_02" />
+    <SUITE FILE_PATH="coverage/special_subject_1$problem9.coverage" NAME="problem9 Coverage Results" MODIFIED="1600929050776" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework_02" />
     <SUITE FILE_PATH="coverage/special_subject_1$problem_5.coverage" NAME="problem 5 Coverage Results" MODIFIED="1600863001718" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework_02" />
     <SUITE FILE_PATH="coverage/special_subject_1$problem1.coverage" NAME="problem1 Coverage Results" MODIFIED="1600826742913" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework_02" />
     <SUITE FILE_PATH="coverage/special_subject_1$problem_6.coverage" NAME="problem_6 Coverage Results" MODIFIED="1600598736191" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework_01" />
