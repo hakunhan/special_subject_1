@@ -32,6 +32,6 @@ def convert(str):
 
 def main():
     str = input("Enter the sentence has no space and uppercase the first letter in each words: ")
-    print(convert("HelloEveryBodyHere"))
+    print(convert(str))
 
 main()
