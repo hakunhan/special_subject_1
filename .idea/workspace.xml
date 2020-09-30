@@ -58,14 +58,14 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Administrator\special_subject_1\practies\week02" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.haversine_calculation">
+  <component name="RunManager" selected="Python.number_to_text">
     <configuration name="haversine_calculation" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="special_subject_1" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -88,7 +88,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="problem4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="number_to_text" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="special_subject_1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -96,12 +96,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/homework_02" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/practies/week02" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/homework_02/problem4.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/practies/week02/number_to_text.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -178,11 +178,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.number_to_text" />
         <item itemvalue="Python.haversine_calculation" />
         <item itemvalue="Python.problem7" />
         <item itemvalue="Python.problem6" />
         <item itemvalue="Python.problem5" />
-        <item itemvalue="Python.problem4" />
       </list>
     </recent_temporary>
   </component>
@@ -200,6 +200,7 @@
       <workItem from="1600857704167" duration="9935000" />
       <workItem from="1601027894771" duration="113000" />
       <workItem from="1601028106068" duration="4224000" />
+      <workItem from="1601460335736" duration="8854000" />
     </task>
     <servers />
   </component>
@@ -227,22 +228,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1600826781557" />
-    <state width="1286" height="156" key="GridCell.Tab.0.bottom" timestamp="1601033658953">
+    <state width="1286" height="156" key="GridCell.Tab.0.bottom" timestamp="1601469138915">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="156" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1601033658953" />
-    <state width="1286" height="156" key="GridCell.Tab.0.center" timestamp="1601033658953">
+    <state width="1286" height="156" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1601469138915" />
+    <state width="1286" height="156" key="GridCell.Tab.0.center" timestamp="1601469138915">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="156" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1601033658953" />
-    <state width="1286" height="156" key="GridCell.Tab.0.left" timestamp="1601033658953">
+    <state width="1286" height="156" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1601469138915" />
+    <state width="1286" height="156" key="GridCell.Tab.0.left" timestamp="1601469138915">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="156" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1601033658953" />
-    <state width="1286" height="156" key="GridCell.Tab.0.right" timestamp="1601033658953">
+    <state width="1286" height="156" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1601469138915" />
+    <state width="1286" height="156" key="GridCell.Tab.0.right" timestamp="1601469138915">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="156" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1601033658953" />
+    <state width="1286" height="156" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1601469138915" />
     <state width="1286" height="195" key="GridCell.Tab.1.bottom" timestamp="1600870328878">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -259,10 +260,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1286" height="195" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1600870328877" />
-    <state x="184" y="0" key="SettingsEditor" timestamp="1600826260551">
+    <state x="184" y="0" key="SettingsEditor" timestamp="1601462769779">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1600826260551" />
+    <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1601462769779" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1600862057731">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -271,6 +272,7 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/special_subject_1$coding_problems.coverage" NAME="coding_problems Coverage Results" MODIFIED="1600597809716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework_01" />
     <SUITE FILE_PATH="coverage/special_subject_1$problem3.coverage" NAME="problem3 Coverage Results" MODIFIED="1600861261467" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework_02" />
+    <SUITE FILE_PATH="coverage/special_subject_1$number_to_text.coverage" NAME="number_to_text Coverage Results" MODIFIED="1601469138906" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practies/week02" />
     <SUITE FILE_PATH="coverage/special_subject_1$problem_4__1_.coverage" NAME="problem_4 (1) Coverage Results" MODIFIED="1600598073164" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework_01" />
     <SUITE FILE_PATH="coverage/special_subject_1$problem_8.coverage" NAME="problem_8 Coverage Results" MODIFIED="1600602063511" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework_01" />
     <SUITE FILE_PATH="coverage/special_subject_1$problem_5.coverage" NAME="problem 5 Coverage Results" MODIFIED="1600863001718" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework_02" />
