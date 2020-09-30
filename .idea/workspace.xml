@@ -200,7 +200,7 @@
       <workItem from="1600857704167" duration="9935000" />
       <workItem from="1601027894771" duration="113000" />
       <workItem from="1601028106068" duration="4224000" />
-      <workItem from="1601460335736" duration="8854000" />
+      <workItem from="1601460335736" duration="11103000" />
     </task>
     <servers />
   </component>
@@ -228,22 +228,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1600826781557" />
-    <state width="1286" height="156" key="GridCell.Tab.0.bottom" timestamp="1601469138915">
+    <state width="1286" height="156" key="GridCell.Tab.0.bottom" timestamp="1601472857703">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="156" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1601469138915" />
-    <state width="1286" height="156" key="GridCell.Tab.0.center" timestamp="1601469138915">
+    <state width="1286" height="156" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1601472857703" />
+    <state width="1286" height="156" key="GridCell.Tab.0.center" timestamp="1601472857703">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="156" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1601469138915" />
-    <state width="1286" height="156" key="GridCell.Tab.0.left" timestamp="1601469138915">
+    <state width="1286" height="156" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1601472857703" />
+    <state width="1286" height="156" key="GridCell.Tab.0.left" timestamp="1601472857702">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="156" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1601469138915" />
-    <state width="1286" height="156" key="GridCell.Tab.0.right" timestamp="1601469138915">
+    <state width="1286" height="156" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1601472857702" />
+    <state width="1286" height="156" key="GridCell.Tab.0.right" timestamp="1601472857703">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="156" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1601469138915" />
+    <state width="1286" height="156" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1601472857703" />
     <state width="1286" height="195" key="GridCell.Tab.1.bottom" timestamp="1600870328878">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -272,7 +272,7 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/special_subject_1$coding_problems.coverage" NAME="coding_problems Coverage Results" MODIFIED="1600597809716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework_01" />
     <SUITE FILE_PATH="coverage/special_subject_1$problem3.coverage" NAME="problem3 Coverage Results" MODIFIED="1600861261467" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework_02" />
-    <SUITE FILE_PATH="coverage/special_subject_1$number_to_text.coverage" NAME="number_to_text Coverage Results" MODIFIED="1601469138906" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practies/week02" />
+    <SUITE FILE_PATH="coverage/special_subject_1$number_to_text.coverage" NAME="number_to_text Coverage Results" MODIFIED="1601472857690" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practies/week02" />
     <SUITE FILE_PATH="coverage/special_subject_1$problem_4__1_.coverage" NAME="problem_4 (1) Coverage Results" MODIFIED="1600598073164" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework_01" />
     <SUITE FILE_PATH="coverage/special_subject_1$problem_8.coverage" NAME="problem_8 Coverage Results" MODIFIED="1600602063511" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework_01" />
     <SUITE FILE_PATH="coverage/special_subject_1$problem_5.coverage" NAME="problem 5 Coverage Results" MODIFIED="1600863001718" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework_02" />
