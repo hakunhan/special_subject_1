@@ -16,6 +16,6 @@ def number(message):
             else:
                 print('Invalid input! Please try again')
         except ValueError:
-            print('Conversion error, please re-input the number!')
+            print('Conversion error, please re-input')
             continue
     return num
