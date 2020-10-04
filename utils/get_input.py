@@ -19,3 +19,16 @@ def number(message):
             print('Conversion error, please re-input')
             continue
     return num
+
+#getting list of element
+def list(message):
+    lst = []
+
+    n = int(number(f"Enter number of element {message}: "))
+
+    for i in range (n):
+        element = input(f"Element number {i+1}: ")
+
+        lst.append(element)
+
+    return lst

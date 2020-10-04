@@ -1,4 +1,5 @@
 #sorting a list of items with bubble sort
+import utils.get_input
 
 def bubble_sort(list):
     for i in range (len(list)-1):
@@ -10,3 +11,8 @@ def bubble_sort(list):
                 list[j+1] = temp
 
 def main():
+    lst = utils.get_input.list("")
+    bubble_sort(lst)
+    print(lst)
+
+main()
