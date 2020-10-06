@@ -20,9 +20,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9d6686e3-51f5-44db-9b34-a94a8588662e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/homework_02/problem1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework_02/problem2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practies/week02/convert_morse_code.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/special_subject_1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/special_subject_1.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -42,7 +39,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="JupyterTrust" id="f9bf367c-8506-489d-96d1-e3922d98d46c" />
+  <component name="JupyterTrust" id="27d09592-26d5-4b2c-a0c1-ad3b783f8b44" />
   <component name="ProjectId" id="1hlqyfCHhVNBwC2pv8jDhn4Ne42" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -51,14 +48,14 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../python" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -201,6 +198,8 @@
       <workItem from="1601027894771" duration="113000" />
       <workItem from="1601028106068" duration="4224000" />
       <workItem from="1601460335736" duration="11419000" />
+      <workItem from="1601519058388" duration="111000" />
+      <workItem from="1601522193656" duration="652000" />
     </task>
     <servers />
   </component>
@@ -220,14 +219,16 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="363" y="99" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1601027910513">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="408" y="152" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1601519061534">
+      <screen x="0" y="40" width="1536" height="824" />
     </state>
     <state x="363" y="99" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1366.728@0.0.1366.728" timestamp="1601027910513" />
-    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1600826781557">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="408" y="152" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.40.1536.824@0.40.1536.824" timestamp="1601519061534" />
+    <state x="521" y="174" key="FileChooserDialogImpl" timestamp="1601519167326">
+      <screen x="0" y="40" width="1536" height="824" />
     </state>
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1600826781557" />
+    <state x="521" y="174" key="FileChooserDialogImpl/0.40.1536.824@0.40.1536.824" timestamp="1601519167326" />
     <state width="1286" height="156" key="GridCell.Tab.0.bottom" timestamp="1601474018376">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -260,30 +261,31 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1286" height="195" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1600870328877" />
-    <state x="184" y="0" key="SettingsEditor" timestamp="1601462769779">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="207" y="40" key="SettingsEditor" timestamp="1601519085370">
+      <screen x="0" y="40" width="1536" height="824" />
     </state>
     <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1601462769779" />
+    <state x="207" y="40" key="SettingsEditor/0.40.1536.824@0.40.1536.824" timestamp="1601519085370" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1600862057731">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1600862057731" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/special_subject_1$coding_problems.coverage" NAME="coding_problems Coverage Results" MODIFIED="1600597809716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework_01" />
-    <SUITE FILE_PATH="coverage/special_subject_1$problem3.coverage" NAME="problem3 Coverage Results" MODIFIED="1600861261467" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework_02" />
-    <SUITE FILE_PATH="coverage/special_subject_1$number_to_text.coverage" NAME="number_to_text Coverage Results" MODIFIED="1601472857690" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practies/week02" />
+    <SUITE FILE_PATH="coverage/special_subject_1$problem_7.coverage" NAME="problem_7 Coverage Results" MODIFIED="1600601585410" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework_01" />
     <SUITE FILE_PATH="coverage/special_subject_1$problem_4__1_.coverage" NAME="problem_4 (1) Coverage Results" MODIFIED="1600598073164" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework_01" />
-    <SUITE FILE_PATH="coverage/special_subject_1$problem_8.coverage" NAME="problem_8 Coverage Results" MODIFIED="1600602063511" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework_01" />
-    <SUITE FILE_PATH="coverage/special_subject_1$problem_5.coverage" NAME="problem 5 Coverage Results" MODIFIED="1600863001718" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework_02" />
-    <SUITE FILE_PATH="coverage/special_subject_1$problem_9.coverage" NAME="problem_9 Coverage Results" MODIFIED="1600602306925" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework_01" />
+    <SUITE FILE_PATH="coverage/special_subject_1$coding_problems.coverage" NAME="coding_problems Coverage Results" MODIFIED="1600597809716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework_01" />
     <SUITE FILE_PATH="coverage/special_subject_1$problem4.coverage" NAME="problem4 Coverage Results" MODIFIED="1600862061904" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework_02" />
+    <SUITE FILE_PATH="coverage/special_subject_1$haversine_calculation.coverage" NAME="haversine_calculation Coverage Results" MODIFIED="1601031669415" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code_camp" />
+    <SUITE FILE_PATH="coverage/special_subject_1$problem6.coverage" NAME="problem6 Coverage Results" MODIFIED="1600867108695" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework_02" />
+    <SUITE FILE_PATH="coverage/special_subject_1$number_to_text.coverage" NAME="number_to_text Coverage Results" MODIFIED="1601472857690" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practies/week02" />
+    <SUITE FILE_PATH="coverage/special_subject_1$problem_8.coverage" NAME="problem_8 Coverage Results" MODIFIED="1600602063511" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework_01" />
+    <SUITE FILE_PATH="coverage/special_subject_1$problem7.coverage" NAME="problem7 Coverage Results" MODIFIED="1601030942375" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework_02" />
+    <SUITE FILE_PATH="coverage/special_subject_1$problem3.coverage" NAME="problem3 Coverage Results" MODIFIED="1600861261467" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework_02" />
+    <SUITE FILE_PATH="coverage/special_subject_1$problem_9.coverage" NAME="problem_9 Coverage Results" MODIFIED="1600602306925" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework_01" />
+    <SUITE FILE_PATH="coverage/special_subject_1$problem2.coverage" NAME="problem2 Coverage Results" MODIFIED="1600827754258" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework_02" />
+    <SUITE FILE_PATH="coverage/special_subject_1$problem_5.coverage" NAME="problem 5 Coverage Results" MODIFIED="1600863001718" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework_02" />
     <SUITE FILE_PATH="coverage/special_subject_1$problem1.coverage" NAME="problem1 Coverage Results" MODIFIED="1600826742913" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework_02" />
     <SUITE FILE_PATH="coverage/special_subject_1$problem_6.coverage" NAME="problem_6 Coverage Results" MODIFIED="1600598736191" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework_01" />
-    <SUITE FILE_PATH="coverage/special_subject_1$problem7.coverage" NAME="problem7 Coverage Results" MODIFIED="1601030942375" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework_02" />
-    <SUITE FILE_PATH="coverage/special_subject_1$haversine_calculation.coverage" NAME="haversine_calculation Coverage Results" MODIFIED="1601031669415" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code_camp" />
-    <SUITE FILE_PATH="coverage/special_subject_1$problem2.coverage" NAME="problem2 Coverage Results" MODIFIED="1600827754258" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework_02" />
-    <SUITE FILE_PATH="coverage/special_subject_1$problem6.coverage" NAME="problem6 Coverage Results" MODIFIED="1600867108695" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework_02" />
-    <SUITE FILE_PATH="coverage/special_subject_1$problem_7.coverage" NAME="problem_7 Coverage Results" MODIFIED="1600601585410" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework_01" />
   </component>
 </project>
