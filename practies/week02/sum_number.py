@@ -14,7 +14,6 @@ def get_sum(num):
 def main():
     num = utils.get_input.number("Enter number without separation: ")
 
-    print(num)
     print(f"The sum of the series of single digit numbers is: {get_sum(num)}")
 
 main()
