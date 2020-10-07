@@ -68,8 +68,10 @@ def get_r_s_calculation(table):
     return calculation
 
 #step 3.1: calculate x0 = r*b/d mod n/d
-def calculate_x0(r_s,b,d,n):
+#     			  => x = {(x0 + k*n/d) mod n} with k in Z
+def calculate_x(r_s,b,d,n):
     x0 = r_s[0] * b / d
+	x = [x0]
     mod_of_x0 = n/d
 
     if (x0 > mod_of_x0):
@@ -78,8 +80,19 @@ def calculate_x0(r_s,b,d,n):
     else:
         while(x0 < mod_of_x0):
             x0 += mod_of_x0
+				
+	if (x0 < n):
+		while(x0 < n):
+			x0 += mod_of_x0
+			x.append(x0)
+	else:
+		while(x0 > n):
+			x0 -= mod_of_x0
+			x.append(x0)
+			
+    return x
 
-    return x0
+
 
 def main():
     a = int(utils.get_input.number("Enter number a: "))
