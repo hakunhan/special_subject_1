@@ -7,6 +7,7 @@
 #2. total correct answer, incorrect answer
 #3. list of incorrect answer
 from tkinter.filedialog import askopenfilename
+import traceback
 
 #read correct answer file then return a list
 def read_correct_answer():
@@ -22,13 +23,18 @@ def read_correct_answer():
 def read_students_answer():
     lst = []
     #get student file path by open windows choose file
-    #filename = askopenfilename()
+    filename = askopenfilename()
 
-    filename = 'student_answer.txt'
 
-    with open(filename,'r') as reader:
-        for line in reader:
-            lst.append(line.split('\n')[0])
+    #filename = 'student_answer.txt'
+
+    try:
+        with open(filename,'r') as reader:
+            for line in reader:
+                lst.append(line.split('\n')[0])
+    except Exception as e:
+        print('Not succeed in read file! Please try again!')
+        return read_students_answer()
 
     return lst
 
@@ -57,8 +63,10 @@ def compare(students_answer,correct_answer):
     print(f'Answer that are incorrect: {incorrect_answer}')
 
 def main():
-    print(read_correct_answer())
-    print(read_students_answer())
-    compare(read_students_answer(),read_correct_answer())
+    cor_ans = read_correct_answer()
+    stu_ans = read_students_answer()
+    print(stu_ans)
+
+    compare(cor_ans,stu_ans)
 
 main()
