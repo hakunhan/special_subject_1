@@ -52,7 +52,7 @@ def get_r_s_calculation(table):
     calculation = []
     s = - table[2][len(table[2]) - 2]
     r = 1
-    for i in range((len(table[0]) - 1), -1, -1):
+    for i in range((len(table[0]) - 2), -1, -1):
         calculation.append(f"{table[3][len(table[0]) - 2]} = {table[0][i]}*({r}) + {table[1][i]}*({s})")
 
         if (i == 0):
@@ -70,6 +70,7 @@ def get_r_s_calculation(table):
 #     			  => x = {(x0 + k*n/d) mod n} with k in Z
 def calculate_x(r_s, b, d, n):
     x0 = int(r_s[1]) * b / d
+    print(x0)
     mod_of_x0 = n / d
     x = [x0 % mod_of_x0]
 
@@ -92,6 +93,7 @@ def main():
     print(table)
     d = table[1][len(table[1]) - 1]
     r_s = get_r_s_calculation(table)
+    print(r_s)
     print(calculate_x(r_s[len(r_s)-1],b,d,n))
 
 main()
