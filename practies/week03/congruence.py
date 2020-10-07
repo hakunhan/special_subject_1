@@ -12,6 +12,9 @@ import utils.get_input
 
 # step 1: get gcd(a,n) = d
 def find_gcd_table(a, n):
+    if(a > n):
+        a %= n #reducing a number if a > n
+
     dividends = [n]
     divisors = [a]
     quotients = []
@@ -35,6 +38,7 @@ def find_gcd_table(a, n):
     table = [dividends, divisors, quotients, remainders]
     return table
 
+def
 
 # step 2: check if b % d == 0
 #           if      yes -> step 3
@@ -70,16 +74,15 @@ def get_r_s_calculation(table):
 #     			  => x = {(x0 + k*n/d) mod n} with k in Z
 def calculate_x(r_s, b, d, n):
     x0 = int(r_s[1]) * b / d
-    print(x0)
     mod_of_x0 = n / d
-    x = [x0 % mod_of_x0]
+
+    x0 %= mod_of_x0
+    x = []
 
     if (x0 < n):
-        x0 += mod_of_x0
         while (x0 < n):
             x.append(x0)
             x0 += mod_of_x0
-
 
     return x
 
