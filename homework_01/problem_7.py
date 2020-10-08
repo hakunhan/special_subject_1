@@ -1,4 +1,6 @@
-amount_purchase = float(input("Enter the amount of a purchase: "))
+import utils.get_input
+
+amount_purchase = float(utils.get_input.number("Enter the amount of a purchase: "))
 state_tax = amount_purchase * .05
 county_tax = amount_purchase * 0.025
 total_sale_tax = state_tax + county_tax

@@ -6,7 +6,7 @@ def most_frequent_char(str):
     list_char = [char for char in str]
 
     #sort char list
-    list_char.sort();
+    list_char.sort()
 
     #generating counter for the time most frequent char appear
     most_appearance = 0
