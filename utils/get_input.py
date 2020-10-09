@@ -32,3 +32,20 @@ def list(message):
         lst.append(element)
 
     return lst
+
+#reading file and turn in to list base on the file path
+def file_to_list(message):
+    lst = []
+    print(f"{message}")
+    print(r"(Example of path: C:\Users\Administrator\Documents\GitHub\special_subject_1\utils\get_input)")
+    file_path = input()
+
+    try:
+        with open(file_path,'r') as reader:
+            for line in reader:
+                lst.append(line.split('\n')[0])
+    except Exception as e:
+        print('Not succeed in read file! Please try again!')
+        return file_to_list(message)
+
+    return lst

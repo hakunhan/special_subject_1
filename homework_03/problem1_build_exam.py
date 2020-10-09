@@ -8,35 +8,7 @@
 #3. list of incorrect answer
 from tkinter.filedialog import askopenfilename
 import traceback
-
-#read correct answer file then return a list
-def read_correct_answer():
-    lst = []
-    #read correct answer file
-    with open('correct_answer.txt','r') as reader:
-        for line in reader:
-            lst.append(line.split('\n')[0])
-
-    return lst
-
-#read answer file of the student
-def read_students_answer():
-    lst = []
-    #get student file path by open windows choose file
-    filename = askopenfilename()
-
-
-    #filename = 'student_answer.txt'
-
-    try:
-        with open(filename,'r') as reader:
-            for line in reader:
-                lst.append(line.split('\n')[0])
-    except Exception as e:
-        print('Not succeed in read file! Please try again!')
-        return read_students_answer()
-
-    return lst
+import utils.get_input
 
 #compare student answer to the correct answer and display message
 def compare(students_answer,correct_answer):
@@ -63,9 +35,8 @@ def compare(students_answer,correct_answer):
     print(f'Answer that are incorrect: {incorrect_answer}')
 
 def main():
-    cor_ans = read_correct_answer()
-    stu_ans = read_students_answer()
-    print(stu_ans)
+    cor_ans = utils.get_input.file_to_list("Enter correct answers path: ")
+    stu_ans = utils.get_input.file_to_list("Enter student answers path: ")
 
     compare(cor_ans,stu_ans)
 
