@@ -46,7 +46,6 @@ def get_student_ans(question):
 
     while(not time_out):
         utils.print_format.print_split_line(150)
-        print("Current time left for the test: ", test_time)
 
         for i in range (len(question[current_question % len(question)])):
             print(question[current_question % len(question)][i])
