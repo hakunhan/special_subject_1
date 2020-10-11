@@ -32,7 +32,6 @@ def save_question(question):
 
 def get_student_ans(question):
     student_ans = [None] * len(question)
-    print(len(student_ans))
     current_question = 0
     current_answer = 0
     time_out = False
@@ -71,12 +70,13 @@ def get_student_ans(question):
 
 #compare student answer to the correct answer and display message
 def compare(students_answer,correct_answer):
-    incorrect_answer = []
+    incorrect_answer = [None]*len(correct_answer)
     utils.print_format.print_split_line(150)
 
     for i in range (len(students_answer)):
         if(students_answer[i] != correct_answer[i].split(" ")[1]):
-            incorrect_answer.append(students_answer[i])
+            if(students_answer != None):
+                incorrect_answer[i] = students_answer[i]
 
     #check if student passed the test or not
     if(len(correct_answer) - len(incorrect_answer) >= 15):
@@ -89,10 +89,22 @@ def compare(students_answer,correct_answer):
     print(f'Answer that are incorrect: {incorrect_answer}')
 
 def main():
-    question = utils.get_input.vietnamese_file_to_list("Enter the multiple choice questions path: ")
-    cor_ans = utils.get_input.file_to_list("Enter correct answers path: ")
-    stu_ans = get_student_ans(save_question(question))
+    question, cor_ans = [], []
 
+    while True:  # Keep getting input from the user
+        try:
+            question = utils.get_input.vietnamese_file_to_list("Enter the multiple choice questions path: ")
+            cor_ans = utils.get_input.file_to_list("Enter correct answers path: ")
+            question = save_question(question)
+            if (len(question) <= len(cor_ans)):
+                break
+            else:
+                print('Too many question! Please input again')
+        except ValueError:
+            print('Conversion error, please re-input')
+            continue
+
+    stu_ans = get_student_ans(question)
     compare(stu_ans,cor_ans)
 
 main()
