@@ -1,26 +1,27 @@
-#creating application to auto grade students answer
-#base on giving correct answers
+# creating application to auto grade students answer
+# base on giving correct answers
 
-#requirement: read students answer file, compare it with correct answer
-#then display a message contain:
-#1. indication if student pass the test or not (minimum 15 correct answers to pass)
-#2. total correct answer, incorrect answer
-#3. list of incorrect answer
+#  requirement: read students answer file, compare it with correct answer
+# then display a message contain:
+# 1. indication if student pass the test or not (minimum 15 correct answers to pass)
+# 2. total correct answer, incorrect answer
+# 3. list of incorrect answer
 
 from tkinter.filedialog import askopenfilename
 import traceback
 import threading
 import utils.get_input
-import utils.print_format
+import utils.format
+import utils.create_output
 
-#get questions file and save questions and choices to two dimensional array
-#require: question have number
+# get questions file and save questions and choices to two dimensional array
+# require: question have number
 def save_question(question):
     arr = []
     count = -1
 
     for i in range (len(question)):
-        #check if question have number first or not
+        # check if question have number first or not
         if(question[i][0].isnumeric()):
             arr.append([])
             count+=1
@@ -30,26 +31,30 @@ def save_question(question):
 
     return arr
 
+# get the test answers from student with limited time
 def get_student_ans(question):
     student_ans = [None] * len(question)
     current_question = 0
     current_answer = 0
     time_out = False
 
+    # invoke when timer run out
     def out_of_time():
         print("The test is over!")
         time_out = True
 
+    # set timer as 10 minutes
     test_time = threading.Timer(10*60, out_of_time)
     test_time.start()
 
     while(not time_out):
-        utils.print_format.print_split_line(150)
+        utils.format.print_split_line(150)
 
+        # print questions and choices
         for i in range (len(question[current_question % len(question)])):
             print(question[current_question % len(question)][i])
 
-        answer = input("Choose an answer"
+        answer = utils.get_input.char("Choose an answer (only one character are allow) "
                        "(choose 1 to go to the next ans,"
                        " choose 2 to go back"
                        " choose 0 to end the test early): ")
@@ -68,17 +73,23 @@ def get_student_ans(question):
 
     return student_ans
 
-#compare student answer to the correct answer and display message
+# compare student answer to the correct answer and display message
 def compare(students_answer,correct_answer):
-    incorrect_answer = [None]*len(correct_answer)
-    utils.print_format.print_split_line(150)
+    incorrect_answer = []
+    utils.format.print_split_line(150)
 
+    # check if student answer correctly or not
     for i in range (len(students_answer)):
         if(students_answer[i] != correct_answer[i].split(" ")[1]):
-            if(students_answer != None):
-                incorrect_answer[i] = students_answer[i]
 
-    #check if student passed the test or not
+            # check if student answer or not
+            if(students_answer[i] != None):
+                temp = f'{i+1}.{students_answer[i]}'
+                incorrect_answer.append(temp)
+            else:
+                incorrect_answer.append('No answer')
+
+    # check if student passed the test or not
     if(len(correct_answer) - len(incorrect_answer) >= 15):
         print('Student have passed the exam!')
     else:
@@ -86,7 +97,12 @@ def compare(students_answer,correct_answer):
 
     print(f"Correct answers: {len(correct_answer)- len(incorrect_answer)}")
     print(f'Incorrect answers: {len(incorrect_answer)}')
-    print(f'Answer that are incorrect: {incorrect_answer}')
+
+    # print incorrect answer
+    temp = ''
+    for i in range (len(incorrect_answer)):
+        temp += incorrect_answer[i] + " "
+    print(f'Answer that are incorrect: {temp}')
 
 def main():
     question, cor_ans = [], []
@@ -105,6 +121,7 @@ def main():
             continue
 
     stu_ans = get_student_ans(question)
+    utils.create_output.create_text_file("student_answer.txt",utils.format.format_list(stu_ans))
     compare(stu_ans,cor_ans)
 
 main()

@@ -1,9 +1,16 @@
 #getting input from user
 
-#getting string input from user
-def string(message):
-    str = input(message)
-    return str
+#getting single char input from user
+def char(message):
+    _char = ''
+    while True:  # Keep getting input from the user
+        _char = input(message)
+        if len(_char) == 1:
+            break
+        else:
+            print("Invalid input! Please only enter one char!")
+
+    return _char
 
 #getting number input from user
 def number(message):
