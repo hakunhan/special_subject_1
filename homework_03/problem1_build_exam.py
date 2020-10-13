@@ -21,7 +21,7 @@ def save_question(question):
     count = -1
 
     for i in range (len(question)):
-        # check if question have number first or not
+        # check if first letter of questions is a number or not
         if(question[i][0].isnumeric()):
             arr.append([])
             count+=1

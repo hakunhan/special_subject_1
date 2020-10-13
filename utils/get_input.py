@@ -70,7 +70,6 @@ def vietnamese_file_to_list(message):
             for line in reader:
                 if('\ufeff' in line):
                     line = line.split('\ufeff')[1]
-
                 lst.append(line.split('\n')[0])
     except Exception as e:
         print(e)
