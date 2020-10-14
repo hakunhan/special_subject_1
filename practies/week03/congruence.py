@@ -138,5 +138,3 @@ def main():
 
     print_x += '}'
     print(f'{print_x} mod {n}')
-
-main()

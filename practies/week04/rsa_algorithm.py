@@ -1,0 +1,102 @@
+# generate pair of key
+import practies.week03.congruence
+
+p = 179
+q = 307
+e = 5009
+
+def cal_n():
+    return p*q
+
+def cal_z():
+    return (p-1)*(q-1)
+
+#d = s mod z
+def cal_d():
+    table = practies.week03.congruence.find_gcd_table(e,cal_z())
+    r_s = practies.week03.congruence.get_r_s_calculation(table)
+
+    d = int(r_s[len(r_s)-1][1]) % cal_z()
+    return d
+
+# generate public and private key
+def generate_keys():
+    public_key = [cal_n(), e]
+    private_key = [cal_n(), cal_d()]
+
+    return [public_key, private_key]
+
+# convert decimal d to binary calculation
+# e.g: d = 53 => d = 2^5 + 2^4 +2^2 + 2^0
+def convert_binary_list(d):
+    result = []
+    bin_d = str(bin(d))
+
+    for i in range(len(bin_d)):
+        if (bin_d[i] == '1'):
+            result.append(len(bin_d)-1-i)
+
+    return result
+
+# m^d mod n = c
+def createSignature():
+    name = ['H','I','I','U']
+    ascii_name = []
+    result = []
+    for i in range(len(name)):
+        ascii_name.append(ord(name[i]))
+
+    for i in range(len(ascii_name)):
+        encrypt = pow(ascii_name[i], generate_keys()[1][1]) % generate_keys()[1][0]
+        result.append(encrypt)
+
+    return result
+
+def decryptSigature(sig, public_key):
+    result = []
+    n = public_key[0]
+    e = public_key[1]
+
+    bin_list_e = convert_binary_list(e)
+
+    for i in range(len(sig)):
+        temp = 1
+        for j in range(len(bin_list_e)):
+            temp *= (pow(sig[i], pow(2,bin_list_e[j])) % n)
+        temp %= n
+        result.append(temp)
+
+    return result
+
+def encryptMessage(message, private_key):
+    m_list = list(message)
+    m_ascii_name = []
+
+    result = []
+    for i in range(len(m_list)):
+        m_ascii_name.append(ord(m_list[i]))
+
+    for i in range(len(m_ascii_name)):
+        encrypt = pow(m_ascii_name[i], generate_keys()[1][1]) % generate_keys()[1][0]
+        result.append(encrypt)
+
+    return result
+
+def decryption(message, private_key):
+    result = []
+    n = private_key[0]
+    d = private_key[1]
+
+    bin_list_d = convert_binary_list(d)
+
+    for i in range(len(message)):
+        temp = 1
+        for j in range(len(bin_list_d)):
+            temp *= (pow(message[i], pow(2, bin_list_d[j])) % n)
+        temp %= n
+        result.append(temp)
+
+    return result
+
+print(createSignature())
+print(decryptSigature(createSignature(), generate_keys()[0]))
