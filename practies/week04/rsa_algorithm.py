@@ -39,15 +39,15 @@ def convert_binary_list(d):
     return result
 
 # m^d mod n = c
-def createSignature():
-    name = ['H','I','I','U']
-    ascii_name = []
+def createSignature(message):
+    m_list = list(message)
+    ascii_m_list = []
     result = []
-    for i in range(len(name)):
-        ascii_name.append(ord(name[i]))
+    for i in range(len(m_list)):
+        ascii_m_list.append(ord(m_list[i]))
 
-    for i in range(len(ascii_name)):
-        encrypt = pow(ascii_name[i], generate_keys()[1][1]) % generate_keys()[1][0]
+    for i in range(len(ascii_m_list)):
+        encrypt = pow(ascii_m_list[i], generate_keys()[1][1]) % generate_keys()[1][0]
         result.append(encrypt)
 
     return result
@@ -68,16 +68,18 @@ def decryptSigature(sig, public_key):
 
     return result
 
-def encryptMessage(message, private_key):
+def encryptMessage(message, public_key):
     m_list = list(message)
     m_ascii_name = []
+    n = public_key[0]
+    e = public_key[1]
 
     result = []
     for i in range(len(m_list)):
         m_ascii_name.append(ord(m_list[i]))
 
     for i in range(len(m_ascii_name)):
-        encrypt = pow(m_ascii_name[i], generate_keys()[1][1]) % generate_keys()[1][0]
+        encrypt = pow(m_ascii_name[i], e) % n
         result.append(encrypt)
 
     return result
@@ -98,5 +100,7 @@ def decryption(message, private_key):
 
     return result
 
-print(createSignature())
-print(decryptSigature(createSignature(), generate_keys()[0]))
+print(f"Public key: {generate_keys()[0]}, private key: {generate_keys()[1]}")
+print(f"Encrypted message: {
+
+}")
