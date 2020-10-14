@@ -38,6 +38,7 @@ def convert_binary_list(d):
 
     return result
 
+# create signature key base on message and sender private key
 # m^d mod n = c
 def createSignature(message):
     m_list = list(message)
@@ -52,6 +53,8 @@ def createSignature(message):
 
     return result
 
+# decrypt signature with sender public key
+# c^e mod n = m
 def decryptSigature(sig, public_key):
     result = []
     n = public_key[0]
@@ -68,6 +71,7 @@ def decryptSigature(sig, public_key):
 
     return result
 
+# encrypt message with public key of receiver
 def encryptMessage(message, public_key):
     m_list = list(message)
     m_ascii_name = []
@@ -84,6 +88,7 @@ def encryptMessage(message, public_key):
 
     return result
 
+# decrypt message with receiver private key
 def decryption(message, private_key):
     result = []
     n = private_key[0]
@@ -94,7 +99,7 @@ def decryption(message, private_key):
     for i in range(len(message)):
         temp = 1
         for j in range(len(bin_list_d)):
-            temp *= (pow(message[i], pow(2, bin_list_d[j])) % n)
+            temp *= (pow(message[i], pow(2, bin_list_d[j])) % n) 
         temp %= n
         result.append(temp)
 
