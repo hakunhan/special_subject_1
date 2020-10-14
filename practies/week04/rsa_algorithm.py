@@ -101,6 +101,3 @@ def decryption(message, private_key):
     return result
 
 print(f"Public key: {generate_keys()[0]}, private key: {generate_keys()[1]}")
-print(f"Encrypted message: {
-
-}")

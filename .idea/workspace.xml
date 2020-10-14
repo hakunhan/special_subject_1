@@ -20,7 +20,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9d6686e3-51f5-44db-9b34-a94a8588662e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/practies/week04/rsa_algorithm.py" beforeDir="false" afterPath="$PROJECT_DIR$/practies/week04/rsa_algorithm.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -209,7 +208,7 @@
       <workItem from="1602409983764" duration="12649000" />
       <workItem from="1602496894941" duration="3180000" />
       <workItem from="1602566308637" duration="2589000" />
-      <workItem from="1602635590549" duration="7653000" />
+      <workItem from="1602635590549" duration="7943000" />
     </task>
     <servers />
   </component>
