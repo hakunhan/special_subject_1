@@ -100,4 +100,15 @@ def decryption(message, private_key):
 
     return result
 
+# revert message from ascii to text
+def revert_message(message):
+    result = ''
+    for i in range (len(message)):
+        result += chr(message[i])
+
+    return result
+
+message = [22756,21865,47813,47813,32264]
 print(f"Public key: {generate_keys()[0]}, private key: {generate_keys()[1]}")
+print(f"Message: {revert_message(decryption(message,generate_keys()[1]))}")
+print(f"Encrypted message: {encryptMessage('Sup bro!',[1830497,3119])}")
