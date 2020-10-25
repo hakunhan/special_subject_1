@@ -51,18 +51,17 @@ class Static_huffman():
         return binary_tree
 
     def encode(self):
-
-        encode_dict = {}
+        encode_dict = self.get_frequency_dict()
         arr = self.__generate_tree().inorder_traverse()
 
         encode_binary = ""
-        for i in range(len(arr) - 2, -1, -1):
+        for i in range(len(arr) - 1, -1, -1):
             if (i % 2 == 1):
-                encode_dict[arr[i]] = encode_binary + "1"
+                encode_dict.update({list(encode_dict.keys())[i]: encode_binary+"1"})
             else:
-                encode_dict[arr[i]] = encode_binary + "0"
+                encode_dict.update({list(encode_dict.keys())[i]: encode_binary+"0"})
+        
 
-                encode_binary += "1"
 
         return encode_dict
 
