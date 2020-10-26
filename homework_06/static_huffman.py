@@ -1,37 +1,46 @@
 # compressing text file using static huffman algorithm
+import sys
+
 import utils.data_structure.binary_tree
 
-class Node():
-    def __init__(self, data=None, frequency=0, left=None, right=None):
+
+class HuffmanNode():
+    def __init__(self, binary_code = '' ,frequency=0, data=None, left=None, right=None):
         self.data = data
-        self.frequency = frequency
         self.left = left
         self.right = right
+        self.binary_code = binary_code
+        self.frequency = frequency
 
-    def printTree(self):
-        if self.left:
-            self.left.PrintTree()
-        print(self.data),
-        if self.right:
-            self.right.PrintTree()
+    def get_binary_code(self):
+        return str(self.binary_code)
 
-class Binary_tree():
-    def __init__(self):
-        self.node = None
+    def set_binary_code(self,binary_string):
+        self.binary_code = binary_string
 
-    def insert(self, data = None, frequency = 0):
-        tree = self.node
+    def set_left_child_binary_code(self):
+        self.left.set_binary_code(self.get_binary_code() + "0")
 
-        if tree == None:
-            self.node = Node(data,frequency)
-            self.node.left = Binary_tree()
-            self.node.right = Binary_tree()
+    def set_right_child_binary_code(self):
+        self.right.set_binary_code(self.get_binary_code() + "1")
 
-        elif frequency < tree.frequency:
-            self.node.left.insert(data,frequency)
+    def get_frequency(self, frequency):
+        return self.frequency
 
-        elif frequency > tree.frequency:
-            self.node.right.insert(data,frequency)
+
+class HuffmanTree():
+    def __init__(self,root):
+        self.root = root
+
+    def gen_binary_code(self, node=None):
+        if self.root is None or self.root.left is None or self.root.right is None:
+            return
+
+        self.root.set_right_child_binary_code()
+        self.root.set_left_child_binary_code()
+
+        self.gen_binary_code(self.root.left)
+        self.gen_binary_code(self.root.right)
 
 
 class Static_huffman():
@@ -54,18 +63,35 @@ class Static_huffman():
         return dict(sorted(frequency_dict.items(), key=lambda x: x[1], reverse=False))
 
     def build_huffman_tree(self):
+        tree = None
+        def get_two_min_node(node_list):
+            second_node = node_list[0]
+            first_node = node_list[1]
+
+            for node in node_list:
+                if node.frequency <= first_node.frequency:
+                    second_node = first_node
+                    first_node = node
+
+            return [first_node, second_node]
+
         huffman_dict = self.get_frequency_dict()
-        tree = Binary_tree()
+        huffman_list = []
 
-        while(len(huffman_dict) > 1):
-            tree.insert(list(huffman_dict.keys())[1], list(huffman_dict.values())[1])
-            __value = list(huffman_dict.values())[1] + list(huffman_dict.values())[1]
-            #tree.insert('\0',__value)
-            tree.insert(list(huffman_dict.keys())[0],list(huffman_dict.values())[1])
+        for char in huffman_dict:
+            node = HuffmanNode("",huffman_dict[char],char)
+            huffman_list.append(node)
 
-            huffman_dict.pop(list(huffman_dict.keys())[0])
-            huffman_dict.pop(list(huffman_dict.keys())[1])
-            huffman_dict['\0'] = __value
+        while (len(huffman_list) > 1):
+            first_node, second_node = get_two_min_node(huffman_list)
+            huffman_list.remove(first_node)
+            huffman_list.remove(second_node)
+
+            node = HuffmanNode("", first_node.frequency + second_node.frequency, None, first_node, second_node)
+            huffman_list.append(node)
+
+            tree = HuffmanTree(node)
+            tree.gen_binary_code()
 
         return tree
 
@@ -73,7 +99,5 @@ if __name__ == "__main__":
     string = input("Enter string need to compress: ")
 
     static_huffman = Static_huffman(string)
-    frequency_dict = static_huffman.get_frequency_dict()
-    tree = static_huffman.build_huffman_tree()
-    print(tree.node)
-
+    sys.getrecursionlimit
+    #print(str(static_huffman.build_huffman_tree()))
