@@ -33,16 +33,10 @@ class StaticHuffman:
 
         # support method for generating huffman tree
         def get_two_min_node(node_list):
-            first_min_node = node_list[0]
-            second_min_node = node_list[1]
+            lst = sorted(node_list, key = lambda x: x.freq, reverse=False)
 
-            for node in node_list:
-                if node.freq < first_min_node.freq:
-                    first_min_node = node
-                    continue
-
-                if node.freq < second_min_node.freq and node.freq > first_min_node.freq:
-                    second_min_node = node
+            first_min_node = lst[0]
+            second_min_node = lst[1]
 
             return [first_min_node, second_min_node]
 
@@ -88,7 +82,7 @@ class StaticHuffman:
 # =================== END OF STATIC HUFFMAN CLASS ============================
 
 if __name__ == '__main__':
-    string = "Hieu"
+    string = "abbc"
     static_huffman = StaticHuffman(string)
     print(static_huffman.gen_frequency_dict())
     print(static_huffman.gen_code())
