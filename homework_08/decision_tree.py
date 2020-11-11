@@ -14,13 +14,13 @@ def entropy(class_probabilities):
 
     return sum_entropy
 
-def class_probabilities(labels):
+def class_probabilities(label):
     count_positive = 0
     count_negative = 0
-    total = len(labels)
+    total = len(label)
 
-    for i in range (len(labels)):
-        if labels[i] == "YES":
+    for i in range (len(label)):
+        if label[i] == "YES":
             count_positive += 1
         else:
             count_negative += 1
@@ -30,7 +30,15 @@ def class_probabilities(labels):
 
 def question_entropy(question):
     lst_labels = []
-    
+
+    for i in range (len(question)):
+        if(question[i] in lst_labels):
+            continue
+
+        lst_labels.append(question[i])
+
+    for i in range (len(lst_labels)):
+        probabilities = class_probabilities(l)
 
 
 
