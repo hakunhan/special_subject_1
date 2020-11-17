@@ -29,25 +29,41 @@ def class_probabilities(label):
 
 
 def question_information_gain(question):
+    lst_labels = []
+
+    for i in range(len(question)):
+        if (question[i] in lst_labels):
+            continue
+
+        lst_labels.append(question[i])
+
     def question_entropy():
-        
+        count_positive = 0
+        count_negative = 0
+
+        for j in range(len(lst_labels)):
+            label = lst_labels[j]
+            for j in range(len(label)):
+                if label[j] == "YES":
+                    count_positive += 1
+                else:
+                    count_negative += 1
+
+        total = count_positive + count_negative
+
+        return entropy([count_positive/total, count_negative/total])
 
     def average_weight_subtree_entropy():
-        lst_labels = []
         total_entropy = 0
 
-        for i in range(len(question)):
-            if (question[i] in lst_labels):
-                continue
-
-            lst_labels.append(question[i])
-
-        for i in range(len(lst_labels)):
+        for j in range(len(lst_labels)):
             probabilities = class_probabilities(lst_labels)
             label_entropy = entropy(probabilities)
             total_entropy += label_entropy
 
         return total_entropy
+
+    return question_entropy() - average_weight_subtree_entropy()
 
 
 
