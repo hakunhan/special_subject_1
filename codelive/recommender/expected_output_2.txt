@@ -1,0 +1,377 @@
+Welcome to the CSC110 Book Recommender. Type the word in the
+left column to do the action on the right.
+recommend : recommend books for a particular user
+averages  : output the average ratings of all books in the system
+quit      : exit the program
+next task? averages
+Sabriel 4.0
+The Bourne Series 3.857142857142857
+The Hitchhiker's Guide To The Galaxy 3.8333333333333335
+Ender's Game 3.814814814814815
+My Sister's Keeper 3.8
+Harry Potter Series 3.6129032258064515
+Hatchet 3.5833333333333335
+Holes 3.5714285714285716
+The Princess Bride 3.5
+The Lion the Witch and the Wardrobe 3.24
+The Lord of the Rings 3.0434782608695654
+The Summer Tree 3.0
+The Hunt for Red October 3.0
+Shonen Jump Series 3.0
+Maus: A Survivor's Tale 3.0
+The Hobbit 2.8545454545454545
+Nineteen Eighty-Four (1984) 2.8333333333333335
+The War Of The Worlds 2.8260869565217392
+Inkheart 2.769230769230769
+The Golden Compass 2.764705882352941
+Eragon 2.7209302325581395
+Flowers For Algernon 2.625
+Dealing with Dragons 2.6
+Foundation Series 2.5714285714285716
+The Joy Luck Club 2.5555555555555554
+The Hunger Games 2.5
+A Great and Terrible Beauty 2.5
+Neuromancer 2.3846153846153846
+Shattered 2.3333333333333335
+Bleach (graphic novel) 2.3333333333333335
+The Da Vinci Code 2.25
+Bone Series 2.0588235294117645
+Brave New World 1.88
+The Five People You Meet in Heaven 1.8333333333333333
+To Kill a Mockingbird 1.7692307692307692
+Watership Down 1.7
+The Great Gatsby 1.5833333333333333
+The Chrysalids 1.56
+Naruto 1.5217391304347827
+Ranger's Apprentice Series 1.4
+Lord of the Flies 1.358974358974359
+Speak 1.0
+Owl in Love 1.0
+Kiss the Dust 1.0
+Far North 1.0
+The Princess Diaries 0.9047619047619048
+Dinotopia: A Land Apart from Time 0.5
+Twilight Series 0.47058823529411764
+The Sisterhood of the Travelling Pants 0.42857142857142855
+Practical Magic 0.3333333333333333
+Life of Pi 0.22448979591836735
+The Shadow Club 0.0
+Thirteen Reasons Why -0.3333333333333333
+I Know Why the Caged Bird Sings -0.3333333333333333
+
+next task? recommend
+user? Nathan
+The Hunger Games 5.0
+The Five People You Meet in Heaven 5.0
+The Da Vinci Code 5.0
+Hatchet 5.0
+Foundation Series 5.0
+Holes 4.333333333333333
+Harry Potter Series 4.333333333333333
+Inkheart 4.0
+Ender's Game 4.0
+Twilight Series 3.6666666666666665
+The Lion the Witch and the Wardrobe 3.6666666666666665
+Life of Pi 3.6666666666666665
+The Princess Diaries 3.0
+The Hitchhiker's Guide To The Galaxy 3.0
+The Golden Compass 3.0
+My Sister's Keeper 3.0
+Eragon 3.0
+Dinotopia: A Land Apart from Time 3.0
+The Lord of the Rings 1.0
+Lord of the Flies 0.3333333333333333
+
+next task? recommend
+user? nathan
+Sabriel 4.0
+The Bourne Series 3.857142857142857
+The Hitchhiker's Guide To The Galaxy 3.8333333333333335
+Ender's Game 3.814814814814815
+My Sister's Keeper 3.8
+Harry Potter Series 3.6129032258064515
+Hatchet 3.5833333333333335
+Holes 3.5714285714285716
+The Princess Bride 3.5
+The Lion the Witch and the Wardrobe 3.24
+The Lord of the Rings 3.0434782608695654
+The Summer Tree 3.0
+The Hunt for Red October 3.0
+Shonen Jump Series 3.0
+Maus: A Survivor's Tale 3.0
+The Hobbit 2.8545454545454545
+Nineteen Eighty-Four (1984) 2.8333333333333335
+The War Of The Worlds 2.8260869565217392
+Inkheart 2.769230769230769
+The Golden Compass 2.764705882352941
+Eragon 2.7209302325581395
+Flowers For Algernon 2.625
+Dealing with Dragons 2.6
+Foundation Series 2.5714285714285716
+The Joy Luck Club 2.5555555555555554
+The Hunger Games 2.5
+A Great and Terrible Beauty 2.5
+Neuromancer 2.3846153846153846
+Shattered 2.3333333333333335
+Bleach (graphic novel) 2.3333333333333335
+The Da Vinci Code 2.25
+Bone Series 2.0588235294117645
+Brave New World 1.88
+The Five People You Meet in Heaven 1.8333333333333333
+To Kill a Mockingbird 1.7692307692307692
+Watership Down 1.7
+The Great Gatsby 1.5833333333333333
+The Chrysalids 1.56
+Naruto 1.5217391304347827
+Ranger's Apprentice Series 1.4
+Lord of the Flies 1.358974358974359
+Speak 1.0
+Owl in Love 1.0
+Kiss the Dust 1.0
+Far North 1.0
+The Princess Diaries 0.9047619047619048
+Dinotopia: A Land Apart from Time 0.5
+Twilight Series 0.47058823529411764
+The Sisterhood of the Travelling Pants 0.42857142857142855
+Practical Magic 0.3333333333333333
+Life of Pi 0.22448979591836735
+The Shadow Club 0.0
+Thirteen Reasons Why -0.3333333333333333
+I Know Why the Caged Bird Sings -0.3333333333333333
+
+next task? recommend
+user? James
+To Kill a Mockingbird 5.0
+Sabriel 5.0
+My Sister's Keeper 5.0
+Maus: A Survivor's Tale 5.0
+Harry Potter Series 5.0
+Flowers For Algernon 5.0
+The Lion the Witch and the Wardrobe 4.333333333333333
+The Hitchhiker's Guide To The Galaxy 4.333333333333333
+The Golden Compass 4.333333333333333
+The Da Vinci Code 4.0
+The Lord of the Rings 3.6666666666666665
+The Hobbit 3.6666666666666665
+Holes 3.6666666666666665
+Watership Down 3.0
+The War Of The Worlds 3.0
+The Princess Bride 3.0
+Shattered 3.0
+The Chrysalids 2.3333333333333335
+Hatchet 2.3333333333333335
+The Great Gatsby 2.0
+Lord of the Flies 2.0
+Life of Pi 2.0
+Inkheart 2.0
+Eragon 2.0
+Speak 1.0
+Bleach (graphic novel) 1.0
+
+next task? recommend
+user? Tiffany
+The Shadow Club 5.0
+The Princess Bride 5.0
+The Lord of the Rings 5.0
+The Hobbit 5.0
+Speak 5.0
+Shattered 5.0
+Sabriel 5.0
+Ranger's Apprentice Series 5.0
+My Sister's Keeper 5.0
+Holes 5.0
+Harry Potter Series 5.0
+Flowers For Algernon 5.0
+Far North 5.0
+Ender's Game 5.0
+Dealing with Dragons 5.0
+Bone Series 5.0
+Bleach (graphic novel) 5.0
+The Lion the Witch and the Wardrobe 4.333333333333333
+The Hitchhiker's Guide To The Galaxy 4.333333333333333
+The Golden Compass 4.333333333333333
+Hatchet 4.333333333333333
+Eragon 4.333333333333333
+Lord of the Flies 4.0
+To Kill a Mockingbird 3.6666666666666665
+The War Of The Worlds 3.6666666666666665
+The Sisterhood of the Travelling Pants 3.6666666666666665
+Watership Down 3.0
+The Da Vinci Code 3.0
+The Bourne Series 3.0
+Inkheart 3.0
+The Great Gatsby 1.0
+Life of Pi 1.0
+The Princess Diaries 0.3333333333333333
+The Chrysalids 0.3333333333333333
+
+next task? recommend
+user? Megan
+Twilight Series 5.0
+To Kill a Mockingbird 5.0
+The War Of The Worlds 5.0
+The Sisterhood of the Travelling Pants 5.0
+The Princess Bride 5.0
+The Lord of the Rings 5.0
+The Lion the Witch and the Wardrobe 5.0
+The Hobbit 5.0
+The Chrysalids 5.0
+Speak 5.0
+Naruto 5.0
+My Sister's Keeper 5.0
+Lord of the Flies 5.0
+Holes 5.0
+Hatchet 5.0
+Harry Potter Series 5.0
+Eragon 5.0
+Bone Series 5.0
+Bleach (graphic novel) 5.0
+The Golden Compass 4.333333333333333
+The Da Vinci Code 4.333333333333333
+The Bourne Series 4.333333333333333
+Inkheart 4.333333333333333
+The Princess Diaries 3.6666666666666665
+The Hitchhiker's Guide To The Galaxy 3.6666666666666665
+Ender's Game 3.0
+
+next task? recommend
+user? Ella
+Twilight Series 5.0
+The War Of The Worlds 5.0
+The Sisterhood of the Travelling Pants 5.0
+The Princess Bride 5.0
+The Lion the Witch and the Wardrobe 5.0
+The Golden Compass 5.0
+The Bourne Series 5.0
+Speak 5.0
+Naruto 5.0
+My Sister's Keeper 5.0
+Inkheart 5.0
+Holes 5.0
+Hatchet 5.0
+Harry Potter Series 5.0
+Eragon 5.0
+Bone Series 5.0
+The Princess Diaries 4.333333333333333
+The Lord of the Rings 4.333333333333333
+The Da Vinci Code 4.333333333333333
+The Hitchhiker's Guide To The Galaxy 4.0
+The Hobbit 3.6666666666666665
+Ender's Game 3.0
+To Kill a Mockingbird 1.0
+
+next task? recommend
+user? Leslie
+Twilight Series 5.0
+The War Of The Worlds 5.0
+The Princess Bride 5.0
+The Lord of the Rings 5.0
+The Hobbit 5.0
+The Golden Compass 5.0
+The Bourne Series 5.0
+Sabriel 5.0
+Neuromancer 5.0
+Naruto 5.0
+My Sister's Keeper 5.0
+Inkheart 5.0
+Hatchet 5.0
+Eragon 5.0
+Bone Series 5.0
+The Lion the Witch and the Wardrobe 4.333333333333333
+The Hitchhiker's Guide To The Galaxy 4.333333333333333
+Holes 4.333333333333333
+The Princess Diaries 4.0
+The Da Vinci Code 4.0
+Ender's Game 4.0
+Harry Potter Series 2.3333333333333335
+
+next task? recommend
+user? Shannon
+Watership Down 5.0
+Twilight Series 5.0
+The War Of The Worlds 5.0
+The Sisterhood of the Travelling Pants 5.0
+The Princess Bride 5.0
+The Lord of the Rings 5.0
+The Lion the Witch and the Wardrobe 5.0
+The Hobbit 5.0
+The Chrysalids 5.0
+Speak 5.0
+Naruto 5.0
+My Sister's Keeper 5.0
+Holes 5.0
+Hatchet 5.0
+Harry Potter Series 5.0
+Bone Series 5.0
+Bleach (graphic novel) 5.0
+The Hitchhiker's Guide To The Galaxy 4.333333333333333
+The Bourne Series 4.333333333333333
+Inkheart 4.333333333333333
+Eragon 4.333333333333333
+To Kill a Mockingbird 4.0
+Ender's Game 4.0
+The Golden Compass 3.6666666666666665
+The Da Vinci Code 3.6666666666666665
+The Princess Diaries 3.0
+Lord of the Flies 3.0
+The Great Gatsby 1.0
+Flowers For Algernon 1.0
+
+next task? recommend
+user? Allison
+Sabriel 4.0
+The Bourne Series 3.857142857142857
+The Hitchhiker's Guide To The Galaxy 3.8333333333333335
+Ender's Game 3.814814814814815
+My Sister's Keeper 3.8
+Harry Potter Series 3.6129032258064515
+Hatchet 3.5833333333333335
+Holes 3.5714285714285716
+The Princess Bride 3.5
+The Lion the Witch and the Wardrobe 3.24
+The Lord of the Rings 3.0434782608695654
+The Summer Tree 3.0
+The Hunt for Red October 3.0
+Shonen Jump Series 3.0
+Maus: A Survivor's Tale 3.0
+The Hobbit 2.8545454545454545
+Nineteen Eighty-Four (1984) 2.8333333333333335
+The War Of The Worlds 2.8260869565217392
+Inkheart 2.769230769230769
+The Golden Compass 2.764705882352941
+Eragon 2.7209302325581395
+Flowers For Algernon 2.625
+Dealing with Dragons 2.6
+Foundation Series 2.5714285714285716
+The Joy Luck Club 2.5555555555555554
+The Hunger Games 2.5
+A Great and Terrible Beauty 2.5
+Neuromancer 2.3846153846153846
+Shattered 2.3333333333333335
+Bleach (graphic novel) 2.3333333333333335
+The Da Vinci Code 2.25
+Bone Series 2.0588235294117645
+Brave New World 1.88
+The Five People You Meet in Heaven 1.8333333333333333
+To Kill a Mockingbird 1.7692307692307692
+Watership Down 1.7
+The Great Gatsby 1.5833333333333333
+The Chrysalids 1.56
+Naruto 1.5217391304347827
+Ranger's Apprentice Series 1.4
+Lord of the Flies 1.358974358974359
+Speak 1.0
+Owl in Love 1.0
+Kiss the Dust 1.0
+Far North 1.0
+The Princess Diaries 0.9047619047619048
+Dinotopia: A Land Apart from Time 0.5
+Twilight Series 0.47058823529411764
+The Sisterhood of the Travelling Pants 0.42857142857142855
+Practical Magic 0.3333333333333333
+Life of Pi 0.22448979591836735
+The Shadow Club 0.0
+Thirteen Reasons Why -0.3333333333333333
+I Know Why the Caged Bird Sings -0.3333333333333333
+
+next task? quit
